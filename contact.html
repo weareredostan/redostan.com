@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<title>Contact</title>
+<style>
+@import url('style.css');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+</style>
+</head>
+<body>
+	<div class="outskirts">
+		<div class="nav_button home_button" onclick="window.location.href = 'index.html';">
+			<p class="nav_button_text">.Home</p>
+		</div>
+		<!-- THE TEAM -->
+		<aside id="team_list">
+			<p id="team_heading">CURRENT STAFF</p>
+			<p class="team_li">ROMEO - FOUNDER</p>
+		</aside>
+		<img class="tight centered" style="max-width: 900px; user-select: none;" src="assets/logo/redo_loop.png" />
+		<ul id="contact_list">
+			<li class="contact_li centered"> <!-- TWITTER -->
+				<div class="arrow-bottom-left" style="position: relative; left: 66px; top: 22px;"></div>
+				<img id="ico_twitter" class="icon" style="float: left;" src="assets/contact/ico_twitter.png" />
+				<a href = "https://twitter.com/redostan" target="_blank">
+				<p class="contact_text">twitter</p>
+				</a>
+			</li>
+			<li class="contact_li centered"> <!-- E-MAIL -->
+				<img id="ico_email" class="icon" style="float: left;" src="assets/contact/ico_email.png" />
+				<a href = "mailto: weareredostan@gmail.com">
+				<p class="contact_text" style="max-width: 306px;" onclick="navigator.clipboard.writeText('weareredostan@gmail.com');">weareredostan@gmail.com</p></a>
+				<div class="arrow-down" style="float: left; position: relative; left: -22px;"></div>
+				<br>
+			</li>
+		</ul>
+	<p id="footer">REDOSTAN ©2022</p>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>

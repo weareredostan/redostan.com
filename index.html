@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<title>REDOSTAN: The Land of Once Again!</title>
+<style>
+@import url('style.css');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+</style>
+</head>
+<body>
+	<div class="ripple_box">
+			<img class="ripple" style="position: relative; left: -26px;" src="assets/structure/redo_rip.png"/>
+			<img class="ripple" style="position: absolute; right: -6px;" src="assets/structure/redo_rip.png"/>
+		</div> 
+	<div class="">
+		<div class="navigation">
+			<ul class="nav_list">
+				<li class="nav_sel"> <!-- MISSION -->
+					<p class="nav_text" onclick="window.location.href = 'mission.html';">.Mission</p>
+				</li>
+				<li class="nav_sel" onclick="window.location.href = 'publishing.html';"> <!-- PUBLISHING -->
+					<p class="nav_text">.Publishing</p>
+				</li>
+				<li class="nav_sel" onclick="window.location.href = 'contact.html';"> <!-- CONTACT -->
+					<p class="nav_text">.Contact</p>
+				</li>
+			</ul>
+		</div>
+		<br>
+		<div class="separation" style="color: #5d642a;">...</div>
+		<div style="z-index: -1; background: #5d642a; position: fixed; top: 0px; width: 100%; height: 100vh;">
+			<img id="front_logo" class="logo_inactive centered tight" style="margin-top: 64px; max-width: 700px; user-select: none;" src="assets/logo/redo_button.png" />
+			
+		</div>
+		<div id="front_links" style="position: fixed; top: 76vh; width: 100%; height: 100vh;">
+			<ul id="contact_list">
+				<li class="contact_li centered"> <!-- TWITTER -->
+					<div class="arrow-bottom-left" style="position: relative; left: 66px; top: 22px;"></div>
+					<img id="ico_twitter" class="icon" style="float: left;" src="assets/contact/ico_twitter.png" />
+					<a href = "https://twitter.com/redostan" target="_blank">
+					<p class="contact_text">twitter</p>
+					</a>
+				</li>
+				<li class="contact_li centered"> <!-- E-MAIL -->
+					<img id="ico_email" class="icon" style="float: left;" src="assets/contact/ico_youtube.png" />
+					<a href = "https://www.youtube.com/channel/UCOnLPOevVf_EGEhGHdONxLw" target="_blank">
+					<p class="contact_text" style="max-width: 112px;" onclick="navigator.clipboard.writeText('weareredostan@gmail.com');">youtube</p></a>
+					<div class="arrow-down" style="float: left; position: relative; left: -22px;"></div>
+					<br>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="screenbreak" style="color: #5d642a;">...</div>
+		
+		<div id="trigger" class="sampler">...</div>
+		
+		<div id="redofield" class="centext" style="z-index: 20;">
+			<span style="user-select: none;">...</span>
+			
+			<img class="centered pop wcap" style="user-select: none;" src="assets/logo/redo_simple_red.png"/>
+			<span class="separation" style="color: #000;">...</span>
+			<!--<p id="floater1" class="pop2 ext0 fntOutcastish" style="color: #CCC720;">WE ARE THE HEATHENS!<br>WE ARE THE MISFITS!<br>WE ARE THE REJECTS!</p> -->
+			<span id="floaterspot" style="display: none;">...</span>
+			<p id="footer">REDOSTAN ©2022</p>
+			<p id="phase">...[ phase 0 ... go to the library  ]...</p>
+			<img id="redofloor" class="tight centered" style="max-width: 1000px;" src="assets/structure/redo_floor.png">
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
