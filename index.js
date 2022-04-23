@@ -33,18 +33,32 @@ const init = () => {
 function hide_logo() {
 	var hider = document.getElementById("front_logo");
 	var flinks = document.getElementById("front_links");
+	var fbg = document.getElementById("front_bg");
 	var trigger = document.getElementById("trigger");
 	var windowHeight = window.innerHeight;
 	var elementTop = trigger.getBoundingClientRect().top;
-	var elementVisible = 40;
-	if (elementTop < windowHeight - elementVisible) {
+	var mark1 = 40, mark2 = 580;
+	if (elementTop < windowHeight - mark1) {
 	  hider.classList.remove("logo_inactive");
 	  hider.classList.add("logo_active");
 	  flinks.classList.add("push_back");
+	  fbg.classList.add("blackout");
+	  fbg.classList.remove("bg_green");
 	} else {
 	  hider.classList.remove("logo_active");
 	  hider.classList.add("logo_inactive");
 	  flinks.classList.remove("push_back");
+	  fbg.classList.add("bg_green");
+	  fbg.classList.remove("blackout");
+	}
+	if (elementTop < windowHeight - mark2) {
+	  hider.classList.add("cancel");
+	  flinks.classList.add("cancel");
+	  fbg.classList.add("cancel");
+	} else {
+	  hider.classList.remove("cancel");
+	  flinks.classList.remove("cancel");
+	  fbg.classList.remove("cancel");
 	}
 }
 

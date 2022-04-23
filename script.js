@@ -59,8 +59,8 @@ class Floater {
 			//alert("dir "+this.dir);
 			// Movement
 			let my_dir = degToRad(this.dir);
-			my_xx += lengthdir_x(this.spinfactor*9, my_dir);
-			my_yy += lengthdir_y(this.spinfactor*9, my_dir);
+			my_xx += lengthdir_x(this.spinfactor*10, my_dir);
+			my_yy += lengthdir_y(this.spinfactor*10, my_dir);
 			//this.element.innerHTML = "dir"+this.dir+ "rad "+my_dir;
 			
 			
