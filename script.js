@@ -23,7 +23,6 @@ class Floater {
 		this.element.id = this.id;
 		this.element.classList.add("floater");
 		this.element.classList.add("pop2");
-		this.element.classList.add("ext0");
 		this.element.classList.add("fntOutcastish");
 		let _col = "#CCC125";
 		switch(mycolor){
@@ -47,10 +46,12 @@ class Floater {
 		let my_yy = this.yy;
 		
 		// Boil
+		/*
 		if(Chance(4)){
 			my_xx += Math.random()*4;
 			my_yy += Math.random()*4;
 		}
+		*/
 		if(this.spin){
 			let spin_var = Math.random()*60;
 			//this.dir += 0.001*spin_var;
@@ -58,8 +59,8 @@ class Floater {
 			//alert("dir "+this.dir);
 			// Movement
 			let my_dir = degToRad(this.dir);
-			my_xx += lengthdir_x(this.spinfactor*11, my_dir);
-			my_yy += lengthdir_y(this.spinfactor*11, my_dir);
+			my_xx += lengthdir_x(this.spinfactor*9, my_dir);
+			my_yy += lengthdir_y(this.spinfactor*9, my_dir);
 			//this.element.innerHTML = "dir"+this.dir+ "rad "+my_dir;
 			
 			
