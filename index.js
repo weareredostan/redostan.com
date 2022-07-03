@@ -6,7 +6,7 @@ var floater1, floater2, floater3, floater4;
 
 const init = () => {
 	// Setup
-	floater1 = new Floater("'WE ARE THE HEATHENS!'", 0, true, 0);
+	floater1 = new Floater("'WE ARE THE ERRANTS!'", 0, true, 0);
 	floater2 = new Floater("'WE ARE THE MISFITS!'", 1, true, 0);
 	floater3 = new Floater("'WE ARE THE REJECTS!'", 2, true, 0);
 	floater4 = new Floater("'-AND WE'RE GETTING THE HELL OUTTA HERE!'", 3, true, 1);

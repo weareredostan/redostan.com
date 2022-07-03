@@ -32,7 +32,7 @@ const init = () => {
 	
 	not_table = [["We can do this by ourselves."], [""], [""], ["Asking for the same institutions who damaged you to heal you is foolish..."], ["We can expose racism without inverting an extreme...", "so, we will."], ["We only promote what we believe to be productive."], ["Any topic discussed is simply to lead to conversations of progression."], ["We try our best to refrain from explicitly claiming 1 choice to be the only good choice...", "our method is to analyze all choices with you and let you make the decision."]];
 	
-	not_fold0 = new FolderBox("1", "0", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> affiliated with or funded by any larger organization.", not_table[0]);
+	not_fold0 = new FolderBox("1", "0", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> affiliated with or funded by any large mystery group.", not_table[0]);
 	not_fold1 = new FolderBox("1", "1", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> <span class='cRP'>'FAR-LEFT'</span> for exposing 'The Right'.", not_table[1]);
 	not_fold2 = new FolderBox("1", "2", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> <span class='cRP'>'FAR-RIGHT'</span> for exposing 'The Left'.", not_table[2]);
 	not_fold3 = new FolderBox("1", "3", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> encouraging 'Self-Vicitimization' or 'begging for hand-outs'.", not_table[3]);
