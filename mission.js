@@ -12,11 +12,11 @@ var not_fold5, not_fold6, not_fold7;
 const init = () => {
     folder_controller = new FolderController(3);
     // Tables
-	pro_table = [["<span class='cRB'>REDOSTAN</span> promises to focus on young adults in their 20's - 30's while being run by teams of the same age group...",
-    "this is <span class='cRP'>NOT</span> done to discount the wisdom of our elders...",
+	pro_table = [["<span class='cRB'>REDOSTAN</span> promises to focus on young adults 18 - 30's while being run by teams of the same age group...",
+    "this is <span class='cRP'>NOT</span> done to discount the wisdom of our good	elders...",
     "it IS to avoid the 'traditional' trope of domineering old men having a controlled grasp on the guilible youth...",
-    "<span class='cRB'>We The Youth</span> are just as capable as any high budget instrustry plant."],
-    ["<span class='cRB'>REDOSTAN</span> promises to never be funded by larger organizations with strange agendas."],
+    "we the youth are just as capable as any high budget instrustry plant."],
+    ["<span class='cRB'>REDOSTAN</span> promises to never be funded by larger groups with strange agendas.", "Any affilation or collaboration with other organizations will be explicitly stated in relevant contexts."],
     ["<span class='cRB'>REDOSTAN</span> promises to always return to discussions of the self...",
     "no matter how much time is spent analyzing 'the system'...",
     "we believe only <span class='cGr'>SELF-CONSTRUCTION</span> can bring REAL change...",
@@ -30,12 +30,11 @@ const init = () => {
     pro_fold2 = new FolderBox("0", "2", "<span class='cGr'>REDOSTAN</span> is about <span class='cY'>YOU</span>, NOT just THE SYSTEM.", pro_table[2]);
     pro_fold3 = new FolderBox("0", "3", "<span class='cGr'>REDOSTAN</span> goes <span class='cY'>BEYOND THEORY</span>.", pro_table[3]);
 	
-	not_table = [["We can do this by ourselves."], [""], [""], ["Asking for the same institutions who damaged you to heal you is foolish..."], ["We can expose racism without inverting an extreme...", "so, we will."], ["We only promote what we believe to be productive."], ["Any topic discussed is simply to lead to conversations of progression."], ["We try our best to refrain from explicitly claiming 1 choice to be the only good choice...", "our method is to analyze all choices with you and let you make the decision."]];
+	not_table = [["We can do this by ourselves."], ["This is beyond politics."], ["Asking for the same institutions who damaged you to heal you is not the best use of our time."], ["We can expose racism without inverting an extreme...", "so, we will."], ["We only promote what we believe to be productive."], ["Any topic discussed is simply to lead to conversations of progression."], ["We try our best to refrain from explicitly claiming 1 choice to be the only good choice...", "our method is to analyze all choices with you and let you make the decision."]];
 	
 	not_fold0 = new FolderBox("1", "0", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> affiliated with or funded by any large mystery group.", not_table[0]);
-	not_fold1 = new FolderBox("1", "1", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> <span class='cRP'>'FAR-LEFT'</span> for exposing 'The Right'.", not_table[1]);
-	not_fold2 = new FolderBox("1", "2", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> <span class='cRP'>'FAR-RIGHT'</span> for exposing 'The Left'.", not_table[2]);
-	not_fold3 = new FolderBox("1", "3", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> encouraging 'Self-Vicitimization' or 'begging for hand-outs'.", not_table[3]);
+	not_fold1 = new FolderBox("1", "1", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> <span class='cRP'>'FAR-LEFT'</span> 	or <span class='cRP'>'FAR-RIGHT'</span>.", not_table[1]);
+	not_fold2 = new FolderBox("1", "2", "<span class='cGr'>REDOSTAN</span> is <span class='cR'>NOT</span> encouraging 'Self-Vicitimization' or 'begging for hand-outs'.", not_table[2]);
 	
 	// RENDER LOOP
     const render = () => {

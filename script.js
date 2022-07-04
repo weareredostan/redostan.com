@@ -14,6 +14,7 @@ class Floater {
 		this.element = document.createElement("p");
 		this.spin = dospin;
 		let _spfactor = 4 - instx;
+		if(_spfactor > 2)_spfactor = 2;
 		if(_spfactor < 0){
 			_spfactor = 0;
 			this.spin = false;

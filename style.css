@@ -328,11 +328,22 @@ body {
 }
 
 .pop {
-	filter: hue-rotate(20deg) drop-shadow(20px 20px #111);
+	filter: hue-rotate(20deg) drop-shadow(20px 20px #000);
 }
 
 .pop2 {
-	filter: hue-rotate(-10deg) drop-shadow(6px 3px #111);
+	filter: hue-rotate(-10deg) drop-shadow(6px 3px #000);
+}
+
+.emphasize {
+	color: #FBBD04;
+}
+.emphasize2 {
+	color: #f07bad;
+}
+
+.embolden {
+	font-weight: bold;
 }
 
 /* Text Modifiers */
@@ -406,7 +417,7 @@ body {
 }
 
 .cR { /* Red */
-	color: #FE1F00;
+	color: #df503c;
 }
 
 .cG { /* Gray */
@@ -541,7 +552,9 @@ body {
 
 .folder {
 	/*background-color: #0E6643;*/
+	/*
 	background-image: url("assets/textures/txt_handler.png");
+	*/
 	background-size: 50%;
 	background-size: cover;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
