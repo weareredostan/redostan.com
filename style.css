@@ -57,6 +57,10 @@ body {
 	height: 110vh;
 }
 
+.flooshed {
+	background-color: #141811;
+}
+
 .flashed {
 	background-color: #262e1f;
 }
