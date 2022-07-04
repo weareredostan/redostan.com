@@ -58,7 +58,7 @@ body {
 }
 
 .flashed {
-	background-color: #FFF;
+	background-color: #262e1f;
 }
 
 .flushed {
@@ -538,6 +538,11 @@ body {
 	font-size: 78px;
 }
 
+#imp_arenot:after {
+	content: "!";
+	font-size: 78px;
+}
+
 /* Folder */
 .foldergroup {
 	background-color: #000;
@@ -573,7 +578,7 @@ body {
 .folder_tab {
 	user-select: none;
 	font-family: 'Poppins', sans-serif;
-	font-size: 28px;
+	font-size: 26px;
 	padding: 2px;
 	margin: 6px;
 	background-color: #fbf0f0;
@@ -597,7 +602,7 @@ body {
 	top: -22px;
 }
 .folder_tab_closed:after {
-    color: #20CC00;
+    color: #61b918;
 	content:"   [ + ]";
 	float: right;
 	font-size: 22px;
@@ -605,11 +610,13 @@ body {
 	top: -22px;
 }
 .folder_tab_closed:hover:after {
-    color: #20CC00;
+    color: #61b918;
 	content:"   [ + ]";
 	float: right;
+	/*
 	font-size: 32px;
 	transition: font-size 0.1s;
+	*/
 }
 
 .folder_tab_open {
@@ -663,7 +670,8 @@ body {
 .detail {
 	background: #ebe3e1;
 	color: black;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 400;
 	margin-left: 32px;
 	padding: 24px;
 	font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;

@@ -25,9 +25,9 @@ const init = () => {
     "we will bring likeminded people together...",
     "we will produce <span class='cGr'>ORIGINAL CONTENT</span> that benefits everyone...",
     "we will splash motivation to all who want progress."]];
-    pro_fold0 = new FolderBox("0", "0", "<span class='cGr'>REDOSTAN</span> is FOR THE YOUTH - <span class='cY'>BY THE YOUTH</span>.", pro_table[0]);
-    pro_fold1 = new FolderBox("0", "1", "<span class='cGr'>REDOSTAN</span> is ABSOLUTELY <span class='cY'>INDEPENDENT</span>.", pro_table[1]);
-    pro_fold2 = new FolderBox("0", "2", "<span class='cGr'>REDOSTAN</span> is about <span class='cY'>YOU</span>, NOT just THE SYSTEM.", pro_table[2]);
+    pro_fold0 = new FolderBox("0", "0", "<span class='cGr'>REDOSTAN</span> is for the youth - <span class='cY'>BY THE YOUTH</span>.", pro_table[0]);
+    pro_fold1 = new FolderBox("0", "1", "<span class='cGr'>REDOSTAN</span> is absolutely <span class='cY'>INDEPENDENT</span>.", pro_table[1]);
+    pro_fold2 = new FolderBox("0", "2", "<span class='cGr'>REDOSTAN</span> is about <span class='cY'>YOU</span>, not just the system.", pro_table[2]);
     pro_fold3 = new FolderBox("0", "3", "<span class='cGr'>REDOSTAN</span> goes <span class='cY'>BEYOND THEORY</span>.", pro_table[3]);
 	
 	not_table = [["We can do this by ourselves."], ["This is beyond politics."], ["Asking for the same institutions who damaged you to heal you is not the best use of our time."], ["We can expose racism without inverting an extreme...", "so, we will."], ["We only promote what we believe to be productive."], ["Any topic discussed is simply to lead to conversations of progression."], ["We try our best to refrain from explicitly claiming 1 choice to be the only good choice...", "our method is to analyze all choices with you and let you make the decision."]];
